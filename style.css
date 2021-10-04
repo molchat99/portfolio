@@ -1,3 +1,9 @@
-.welcome {
+h1 {
     font-family: 'JetBrains Mono', monospace;
+    color: #2b6325;
+    text-align: center;
+    
+}
+body{
+    background-color: #8db7e9;
 }
