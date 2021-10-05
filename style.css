@@ -1,9 +1,38 @@
-h1 {
+#head {
     font-family: 'JetBrains Mono', monospace;
-    color: #2b6325;
+    color: #000000;
     text-align: center;
+    margin-top: 2%;
     
 }
 body{
-    background-color: #8db7e9;
+    background-color: #ffffff;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.btn-1{
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: black;
+    background-color: black;
+    transition: ease-out 1s;
+    font-size: 1rem;
+    outline: 0 !important;
+
+
+}
+
+.btn-1:hover{
+    box-shadow: inset 300px 0 0 0 #ffffff;
 }
