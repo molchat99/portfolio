@@ -27,7 +27,7 @@ body{
     border: none;
     color: black;
     background-color: black;
-    transition: ease-out 1s;
+    transition: ease-out 0s;
     font-size: 1rem;
     outline: 0 !important;
 
