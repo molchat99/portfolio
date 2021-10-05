@@ -10,10 +10,11 @@ body{
 }
 
 
+
 .button{
     display: flex;
     flex-direction: row;
-    min-height: 80vh;
+    min-height: 20vh;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
@@ -37,4 +38,21 @@ body{
 #btn-1:hover{
     box-shadow: inset 300px 0 0 0 #ffffff;
 
+}
+
+#staircase{
+    height: 90%;
+    max-width: 90%;
+    opacity: 1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#background{
+    background-color: black;
+}
+
+.description{
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
 }
