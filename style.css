@@ -18,9 +18,10 @@ body{
     align-items: center;
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
+    opacity: 1;
 }
 
-.btn-1{
+#btn-1{
     width: 300px;
     height: 100px;
     border: none;
@@ -33,6 +34,7 @@ body{
 
 }
 
-.btn-1:hover{
+#btn-1:hover{
     box-shadow: inset 300px 0 0 0 #ffffff;
+
 }
