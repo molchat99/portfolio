@@ -60,8 +60,10 @@ body{
 .transition-fade{
     opacity: 1;
     transition: 500ms;
+    transform: translate3d(0);
 }
 
 html.is-animating .transition-fade {
     opacity: 0;
+    transform: translate3d(0);
 }
