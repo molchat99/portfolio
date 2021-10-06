@@ -1,5 +1,8 @@
+@font-face {
+    font-family: Poppins-Regular; src: url('fonts/Poppins-Regular.ttf');
+}
 #head {
-    font-family: 'JetBrains Mono', monospace;
+    font-family: Poppins-Regular, sans-serif;
     color: #000000;
     text-align: center;
     margin-top: 2%;
@@ -11,14 +14,14 @@ body{
 
 
 
-.button{
+.menubutton{
     display: flex;
     flex-direction: row;
     min-height: 20vh;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: Poppins-Regular, sans-serif;
     opacity: 1;
 }
 
@@ -26,18 +29,29 @@ body{
     width: 300px;
     height: 100px;
     border: none;
+    color: white;
+    background-color: #FD5E53;
+    transition: ease-out 0.5s;
+    font-size: 1.5rem;
+    outline: 0 !important;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+#btn-1:hover, #btn-2:hover{
+    box-shadow: inset 300px 0 0 0 #ffffff;
+
+}
+
+#btn-2{
+    width: 100px;
+    height: 100px;
+    border: none;
     color: black;
     background-color: black;
     transition: ease-out 0.5s;
     font-size: 1rem;
     outline: 0 !important;
-
-
-}
-
-#btn-1:hover{
-    box-shadow: inset 300px 0 0 0 #ffffff;
-
+    font-family: Poppins-Regular, sans-serif;
 }
 
 #staircase{
@@ -53,13 +67,13 @@ body{
 }
 
 .description{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: Poppins-Regular, sans-serif;
     color: white;
 }
 
 .transition-fade{
     opacity: 1;
-    transition: 500ms;
+    transition: 200ms;
     transform: translateX(0);
     transform-origin: left;
 }
