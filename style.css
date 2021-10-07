@@ -1,90 +1,80 @@
 @font-face {
-    font-family: Poppins-Regular; src: url('fonts/Poppins-Regular.ttf');
+    font-family: Beausite; src: url('fonts/BeausiteClassic-Medium_web.woff2.ttf');
 }
-#head {
-    font-family: Poppins-Regular, sans-serif;
-    color: #000000;
-    text-align: center;
-    margin-top: 2%;
+
+.html{
+    background-color: black;
+}
+
+.section{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section video{
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 2rem;
+    font-family: Beausite;
+}
+
+.header{
+    padding: 20px 10px;
     
 }
-body{
-    background-color: #ffffff;
-}
 
-
-
-.menubutton{
-    display: flex;
-    flex-direction: row;
-    min-height: 20vh;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    font-family: Poppins-Regular, sans-serif;
-    opacity: 1;
-}
-
-#btn-1{
-    width: 300px;
-    height: 100px;
-    border: none;
-    color: white;
-    background-color: #FD5E53;
-    transition: ease-out 0.5s;
-    font-size: 1.5rem;
-    outline: 0 !important;
-    font-family: Poppins-Regular, sans-serif;
-}
-
-#btn-1:hover, #btn-2:hover{
-    box-shadow: inset 300px 0 0 0 #ffffff;
+.header a{
+    color: #4786c6;
+    padding: 40px;
+    text-decoration: overline;
 
 }
 
-#btn-2{
-    width: 100px;
-    height: 100px;
-    border: none;
-    color: black;
-    background-color: black;
-    transition: ease-out 0.5s;
+.header a.logo {
+    font-weight: bold;
+}
+
+.header a img{
+    width: 5%;
+}
+
+.sites:hover{
+    text-decoration: underline;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.header-right{
+    float: right;
+    
+}
+
+.copyright{
+    height: 100%;
+    vertical-align: bottom;
+    color: #4786c6;
+    padding: 20px;
+    margin-top: 45%;
     font-size: 1rem;
-    outline: 0 !important;
-    font-family: Poppins-Regular, sans-serif;
-}
-
-#staircase{
-    height: 90%;
-    max-width: 90%;
-    opacity: 1;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-#background{
-    background-color: black;
-}
-
-.description{
-    font-family: Poppins-Regular, sans-serif;
-    color: white;
-}
-
-.transition-fade{
-    opacity: 1;
-    transition: 200ms;
-    transform: translateX(0);
-    transform-origin: left;
-}
-
-html.is-animating .transition-fade {
-    opacity: 1;
-    transform: translateX(100%);
-}
-
-html.is-leaving .transition-fade{
-    opacity: 0;
-    transform: translateX(0);
 
 }
+
+
+
+
+
+
