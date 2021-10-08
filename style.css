@@ -10,8 +10,14 @@ footer p{
 footer a{
     float: right;
     padding-right: 50px;
-    color: #4786c6;
+    color: white;
 
+}
+
+footer a:hover{
+    
+    color: black;
+    text-decoration: none;
 }
 
 footer {
@@ -22,7 +28,7 @@ footer {
     text-align: center;
     font-size: 0.8em;
     bottom: 0;
-    color: #4786c6;
+    color: white;
     font-size: 1rem;
   }
 
@@ -60,10 +66,8 @@ footer {
     
 }
 
-
-
 .header a{
-    color: #4786c6;
+    color: white;
     padding: 50px;
     text-decoration: none;
 
@@ -97,7 +101,7 @@ footer {
 
 .sites-text {
     position: relative;
-    color: #4786c6;
+    color: white;
     text-decoration: none;
 }
   
@@ -121,7 +125,19 @@ footer {
     }
   }
 
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+ 
+}
 
+html.is-animating .transition-fade{
+    opacity: 1;
+}
+
+html.is-leaving .transition-fade{
+    opacity: 0;
+}
 
 
 
