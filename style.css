@@ -45,6 +45,7 @@ footer {
     display: flex;
     align-items: center;
     overflow: hidden;
+    font-family: Beausite;
 }
 
 .section video{
@@ -104,6 +105,8 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+
   
   .sites-text:hover {
     color: #000;
@@ -125,19 +128,20 @@ footer {
     }
   }
 
-.transition-fade {
+.transition-fade{
     opacity: 1;
     transition: 500ms;
- 
 }
 
 html.is-animating .transition-fade{
-    opacity: 1;
-}
-
-html.is-leaving .transition-fade{
     opacity: 0;
 }
+
+#project-button{
+
+    z-index: 6;
+}
+
 
 
 
